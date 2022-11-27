@@ -1,0 +1,18 @@
+library IEEE;
+IEEE.STD_LOGIC_1164.ALL;
+entity Parte_B is --el nombre de la entidad coincide con el nombre del archivo
+Port 
+  (input_A : in std_logic; 
+   input_B : in std_logic;
+	input_Cin : in std_logic;
+	clk : in std_logic;
+	output_Cout : out std_logic; -- indica carry salida
+	output_S : out std_logic) ; --indica Salida (suma)
+end Parte_B ; 
+ architecture test of Parte_B is 
+ 
+ component Parte_B -- utilizo un componente que este declarado en algun otro archivo 
+ port    -- en Parte_B cree el FF-D
+ (D,CLOCK : in std_logic;  --D, CLOCK y Q 
+  Q : out std_logic) ;
+  end component ; 

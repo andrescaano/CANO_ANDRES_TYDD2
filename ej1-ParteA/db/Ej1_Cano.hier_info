@@ -1,0 +1,6 @@
+|Ej1_Cano
+A => LED.IN0
+B => LED.IN1
+LED <= LED.DB_MAX_OUTPUT_PORT_TYPE
+
+

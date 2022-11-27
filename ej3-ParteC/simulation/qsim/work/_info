@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Win10\Desktop\Laboratorio TYDD2\parte_C\simulation\qsim
+vPARTE_C_DIAGRAMA
+Z1 !s100 OYao;hW:e05?nHneMzO]W1
+Z2 IMoNiBzH@n[1E>A_[kS6HA3
+Z3 VF`XLOSDRG=Tahf=G]m9Dg2
+Z4 dC:\Users\Win10\Desktop\Laboratorio TYDD2\parte_C\simulation\qsim
+Z5 w1638044197
+Z6 8parte_C.vo
+Z7 Fparte_C.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|parte_C.vo|
+Z10 o-work work -O0
+Z11 n@p@a@r@t@e_@c_@d@i@a@g@r@a@m@a
+!i10b 1
+!s85 0
+Z12 !s108 1638044198.176000
+Z13 !s107 parte_C.vo|
+!s101 -O0
+vPARTE_C_DIAGRAMA_vlg_check_tst
+!i10b 1
+Z14 !s100 Rhzj`6lYa@5ZLA@zc2C?a1
+Z15 IbcN6?c^8ScS1B3nY6nLfJ0
+Z16 V<mfSN?K;K]MhB@YlET[UQ3
+R4
+R5
+Z17 8parte_C.vt
+Z18 Fparte_C.vt
+L0 77
+R8
+r1
+!s85 0
+31
+Z19 !s108 1638044198.231000
+Z20 !s107 parte_C.vt|
+Z21 !s90 -work|work|parte_C.vt|
+!s101 -O0
+R10
+Z22 n@p@a@r@t@e_@c_@d@i@a@g@r@a@m@a_vlg_check_tst
+vPARTE_C_DIAGRAMA_vlg_sample_tst
+!i10b 1
+Z23 !s100 2:4=8KZzARz^g?Nm[E=i>3
+Z24 IOh91E;DXC_0nKz2hzZFgS3
+Z25 VDozm5T5JK]`RWRRo9h3KG0
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@p@a@r@t@e_@c_@d@i@a@g@r@a@m@a_vlg_sample_tst
+vPARTE_C_DIAGRAMA_vlg_vec_tst
+!i10b 1
+!s100 lfd35[m<J3L?_CmNZK3HN0
+IoLz]aPPd1I`WZ_zXDjfAo1
+Z27 V@f^[`5E<aIlTM^H7`AMJe0
+R4
+R5
+R17
+R18
+Z28 L0 361
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@p@a@r@t@e_@c_@d@i@a@g@r@a@m@a_vlg_vec_tst

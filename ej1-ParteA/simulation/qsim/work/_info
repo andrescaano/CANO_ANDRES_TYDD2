@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Desktop\CanoAndres\ej1\simulation\qsim
+vEj1_Cano
+Z1 !s100 TEo:FT]P`^kLePdVBi93Q3
+Z2 IfXHLWDn4zgKe^cD2Qlhlj3
+Z3 V]Q3W=I:@iA8L0=TjGSeDY3
+Z4 dC:\Users\Yo\Desktop\TyDD2\ej1\simulation\qsim
+Z5 w1668786277
+Z6 8Ej1_Cano.vo
+Z7 FEj1_Cano.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Ej1_Cano.vo|
+Z10 o-work work -O0
+Z11 n@ej1_@cano
+!i10b 1
+!s85 0
+Z12 !s108 1668789240.728000
+Z13 !s107 Ej1_Cano.vo|
+!s101 -O0
+vEj1_Cano_vlg_check_tst
+!i10b 1
+Z14 !s100 djP:e:iRGGL67Da^>7gBk1
+Z15 IfjnbAhOWlbR4mzP706kUi3
+Z16 VT[Pm`=c24Fa5k^]hSC0711
+R4
+Z17 w1668789238
+Z18 8Ej1_Cano.vt
+Z19 FEj1_Cano.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1668789240.899000
+Z21 !s107 Ej1_Cano.vt|
+Z22 !s90 -work|work|Ej1_Cano.vt|
+!s101 -O0
+R10
+Z23 n@ej1_@cano_vlg_check_tst
+vEj1_Cano_vlg_sample_tst
+!i10b 1
+Z24 !s100 <Ziz?G]MYCfgT`g=bm6FV0
+Z25 IHcc]5@=Ue[e_^F5XN>8C60
+Z26 VaQPTckINO]XfjBGYdNfZ=0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@ej1_@cano_vlg_sample_tst
+vEj1_Cano_vlg_vec_tst
+!i10b 1
+Z28 !s100 H=F_J=5=b8CcNCV95GF@W3
+Z29 IED=OoLNbQjMAUYL>3DU5R1
+Z30 Vfjj=la<VeXGSC?daUfQ[21
+R4
+R17
+R18
+R19
+Z31 L0 154
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@ej1_@cano_vlg_vec_tst

@@ -1,0 +1,354 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- PROGRAM		"Quartus II 64-Bit"
+-- VERSION		"Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+-- CREATED		"Sat Nov 27 17:19:19 2021"
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+
+LIBRARY work;
+
+ENTITY PARTE_C_DIAGRAMA IS 
+	PORT
+	(
+		B3 :  IN  STD_LOGIC;
+		B2 :  IN  STD_LOGIC;
+		B1 :  IN  STD_LOGIC;
+		B0 :  IN  STD_LOGIC;
+		A3 :  IN  STD_LOGIC;
+		A2 :  IN  STD_LOGIC;
+		A1 :  IN  STD_LOGIC;
+		A0 :  IN  STD_LOGIC;
+		VCC :  IN  STD_LOGIC;
+		CIN :  IN  STD_LOGIC;
+		clk :  IN  STD_LOGIC;
+		S3 :  OUT  STD_LOGIC;
+		S2 :  OUT  STD_LOGIC;
+		S1 :  OUT  STD_LOGIC;
+		S0 :  OUT  STD_LOGIC;
+		Z :  OUT  STD_LOGIC;
+		V :  OUT  STD_LOGIC;
+		C :  OUT  STD_LOGIC;
+		S :  OUT  STD_LOGIC
+	);
+END PARTE_C_DIAGRAMA;
+
+ARCHITECTURE bdf_type OF PARTE_C_DIAGRAMA IS 
+
+COMPONENT parte_c
+	PORT(A : IN STD_LOGIC;
+		 B : IN STD_LOGIC;
+		 Cin : IN STD_LOGIC;
+		 Cout : OUT STD_LOGIC;
+		 S : OUT STD_LOGIC
+	);
+END COMPONENT;
+
+SIGNAL	DFF_inst5 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_0 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC;
+SIGNAL	DFF_inst7 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_23 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_3 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_4 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_5 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_6 :  STD_LOGIC;
+SIGNAL	DFF_inst17 :  STD_LOGIC;
+SIGNAL	DFF_inst19 :  STD_LOGIC;
+SIGNAL	DFF_inst20 :  STD_LOGIC;
+SIGNAL	DFF_inst22 :  STD_LOGIC;
+SIGNAL	DFF_inst6 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_7 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_8 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_9 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_10 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_11 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_24 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_14 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_15 :  STD_LOGIC;
+SIGNAL	DFF_inst4 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_16 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_17 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_18 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_19 :  STD_LOGIC;
+SIGNAL	DFF_inst12 :  STD_LOGIC;
+SIGNAL	DFF_inst10 :  STD_LOGIC;
+SIGNAL	DFF_inst11 :  STD_LOGIC;
+SIGNAL	DFF_inst9 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_22 :  STD_LOGIC;
+
+
+BEGIN 
+S3 <= DFF_inst9;
+S2 <= DFF_inst10;
+S1 <= DFF_inst11;
+S0 <= DFF_inst12;
+
+
+
+b2v_inst : parte_c
+PORT MAP(A => DFF_inst5,
+		 B => SYNTHESIZED_WIRE_0,
+		 Cin => SYNTHESIZED_WIRE_1,
+		 Cout => SYNTHESIZED_WIRE_17,
+		 S => SYNTHESIZED_WIRE_3);
+
+
+b2v_inst1 : parte_c
+PORT MAP(A => DFF_inst7,
+		 B => SYNTHESIZED_WIRE_2,
+		 Cin => SYNTHESIZED_WIRE_23,
+		 Cout => SYNTHESIZED_WIRE_8,
+		 S => SYNTHESIZED_WIRE_5);
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst10 <= '0';
+ELSIF (VCC = '0') THEN
+	DFF_inst10 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst10 <= SYNTHESIZED_WIRE_3;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst11 <= '0';
+ELSIF (VCC = '0') THEN
+	DFF_inst11 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst11 <= SYNTHESIZED_WIRE_4;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst12 <= '0';
+ELSIF (VCC = '0') THEN
+	DFF_inst12 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst12 <= SYNTHESIZED_WIRE_5;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	C <= '0';
+ELSIF (VCC = '0') THEN
+	C <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	C <= SYNTHESIZED_WIRE_6;
+END IF;
+END PROCESS;
+
+
+SYNTHESIZED_WIRE_16 <= DFF_inst17 XOR SYNTHESIZED_WIRE_23;
+
+
+SYNTHESIZED_WIRE_0 <= DFF_inst19 XOR SYNTHESIZED_WIRE_23;
+
+
+SYNTHESIZED_WIRE_7 <= DFF_inst20 XOR SYNTHESIZED_WIRE_23;
+
+
+PROCESS(clk,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst17 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst17 <= B3;
+END IF;
+END PROCESS;
+
+
+SYNTHESIZED_WIRE_2 <= DFF_inst22 XOR SYNTHESIZED_WIRE_23;
+
+
+PROCESS(clk,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst19 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst19 <= B2;
+END IF;
+END PROCESS;
+
+
+b2v_inst2 : parte_c
+PORT MAP(A => DFF_inst6,
+		 B => SYNTHESIZED_WIRE_7,
+		 Cin => SYNTHESIZED_WIRE_8,
+		 Cout => SYNTHESIZED_WIRE_1,
+		 S => SYNTHESIZED_WIRE_4);
+
+
+PROCESS(clk,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst20 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst20 <= B1;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	V <= '0';
+ELSIF (VCC = '0') THEN
+	V <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	V <= SYNTHESIZED_WIRE_9;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst22 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst22 <= B0;
+END IF;
+END PROCESS;
+
+
+SYNTHESIZED_WIRE_9 <= SYNTHESIZED_WIRE_10 OR SYNTHESIZED_WIRE_11;
+
+
+SYNTHESIZED_WIRE_15 <= NOT(SYNTHESIZED_WIRE_24);
+
+
+
+SYNTHESIZED_WIRE_18 <= NOT(B3);
+
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	S <= '0';
+ELSIF (VCC = '0') THEN
+	S <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	S <= SYNTHESIZED_WIRE_24;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	Z <= '0';
+ELSIF (VCC = '0') THEN
+	Z <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	Z <= SYNTHESIZED_WIRE_14;
+END IF;
+END PROCESS;
+
+
+SYNTHESIZED_WIRE_19 <= NOT(A3);
+
+
+
+SYNTHESIZED_WIRE_11 <= B3 AND A3 AND SYNTHESIZED_WIRE_15;
+
+
+b2v_inst3 : parte_c
+PORT MAP(A => DFF_inst4,
+		 B => SYNTHESIZED_WIRE_16,
+		 Cin => SYNTHESIZED_WIRE_17,
+		 Cout => SYNTHESIZED_WIRE_24,
+		 S => SYNTHESIZED_WIRE_22);
+
+
+SYNTHESIZED_WIRE_10 <= SYNTHESIZED_WIRE_18 AND SYNTHESIZED_WIRE_19 AND SYNTHESIZED_WIRE_24;
+
+
+SYNTHESIZED_WIRE_14 <= NOT(DFF_inst12 OR DFF_inst10 OR DFF_inst11 OR DFF_inst9);
+
+
+PROCESS(clk)
+BEGIN
+IF (RISING_EDGE(clk)) THEN
+	DFF_inst4 <= A3;
+END IF;
+END PROCESS;
+
+
+SYNTHESIZED_WIRE_6 <= SYNTHESIZED_WIRE_24 XOR SYNTHESIZED_WIRE_23;
+
+
+PROCESS(clk)
+BEGIN
+IF (RISING_EDGE(clk)) THEN
+	DFF_inst5 <= A2;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	SYNTHESIZED_WIRE_23 <= '0';
+ELSIF (VCC = '0') THEN
+	SYNTHESIZED_WIRE_23 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	SYNTHESIZED_WIRE_23 <= CIN;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk)
+BEGIN
+IF (RISING_EDGE(clk)) THEN
+	DFF_inst6 <= A1;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk)
+BEGIN
+IF (RISING_EDGE(clk)) THEN
+	DFF_inst7 <= A0;
+END IF;
+END PROCESS;
+
+
+PROCESS(clk,VCC,VCC)
+BEGIN
+IF (VCC = '0') THEN
+	DFF_inst9 <= '0';
+ELSIF (VCC = '0') THEN
+	DFF_inst9 <= '1';
+ELSIF (RISING_EDGE(clk)) THEN
+	DFF_inst9 <= SYNTHESIZED_WIRE_22;
+END IF;
+END PROCESS;
+
+
+END bdf_type;

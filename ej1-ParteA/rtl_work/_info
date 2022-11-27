@@ -1,0 +1,73 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Desktop\CanoAndres\ej1
+Eej1_cano
+Z1 w1668182067
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Yo\Desktop\CanoAndres\ej1
+Z5 8C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano.vhd
+Z6 FC:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano.vhd
+l0
+L3
+V8gC`=NK4VdTGC7annbgQ73
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1668185332.325000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano.vhd|
+Z10 !s107 C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 nDjzAz1Tgl`nmB^jYeg@>3
+!i10b 1
+Apartea
+R2
+R3
+DEx4 work 8 ej1_cano 0 22 8gC`=NK4VdTGC7annbgQ73
+l11
+L9
+VW_T3[AdQ5J_TeB4<Ij_U00
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 j?XGTWMZ7Nckba=ORB??D2
+!i10b 1
+Eej1_cano_testbench
+Z13 w1668185230
+R4
+Z14 8C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd
+Z15 FC:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd
+l0
+L1
+V7QOk]ldCzO^QR]]@a8OTB2
+!s100 knS4`]79Y:fYOdb3^?Nil1
+R7
+31
+!i10b 1
+Z16 !s108 1668185332.886000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd|
+Z18 !s107 C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd|
+R11
+R12
+Abehavior
+DEx4 work 18 ej1_cano_testbench 0 22 7QOk]ldCzO^QR]]@a8OTB2
+R2
+R3
+l21
+L7
+V_DFcldOWAj>=VkTKCXQf>2
+!s100 az8044g5GcGWMBI9PDhK42
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

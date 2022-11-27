@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Desktop\CanoAndres\ej1
+Eej1_cano
+Z1 w1668185266
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z8 dC:\Users\Yo\Desktop\CanoAndres\ej1
+Z9 8Ej1_Cano_7_1200mv_85c_slow.vho
+Z10 FEj1_Cano_7_1200mv_85c_slow.vho
+l0
+L34
+VP;1^k8on[H8ozk6e5F7@m1
+Z11 OV;C;10.1d;51
+31
+Z12 !s108 1668186205.517000
+Z13 !s90 -reportprogress|300|-93|-work|work|Ej1_Cano_7_1200mv_85c_slow.vho|
+Z14 !s107 Ej1_Cano_7_1200mv_85c_slow.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+!s100 j_SU`2HF3]F6J4Y]IKVek3
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 ej1_cano 0 22 P;1^k8on[H8ozk6e5F7@m1
+l67
+L48
+VUc@cWlKUH^;5He1lM;WJ:2
+R11
+31
+R12
+R13
+R14
+R15
+R16
+!s100 SQ_hMoZlok7MToK;XS7361
+!i10b 1
+Eej1_cano_testbench
+Z17 w1668185230
+R8
+Z18 8C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd
+Z19 FC:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd
+l0
+L1
+V7QOk]ldCzO^QR]]@a8OTB2
+!s100 knS4`]79Y:fYOdb3^?Nil1
+R11
+31
+!i10b 1
+Z20 !s108 1668186205.907000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd|
+Z22 !s107 C:/Users/Yo/Desktop/CanoAndres/ej1/Ej1_Cano_testbench.vhd|
+R15
+R16
+Abehavior
+DEx4 work 18 ej1_cano_testbench 0 22 7QOk]ldCzO^QR]]@a8OTB2
+R5
+R6
+l21
+L7
+V_DFcldOWAj>=VkTKCXQf>2
+!s100 az8044g5GcGWMBI9PDhK42
+R11
+31
+!i10b 1
+R20
+R21
+R22
+R15
+R16

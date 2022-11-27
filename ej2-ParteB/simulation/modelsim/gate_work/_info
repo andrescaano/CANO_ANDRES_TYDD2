@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Desktop\TyDD2\ej2\simulation\modelsim
+Eparte_b
+Z1 w1668801454
+Z2 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 n^46VOjinLK5_01fgQc6Z0
+Z3 DPx10 cycloneiii 21 cycloneiii_components 0 22 VeH8af>S`B?U[[D6_Khe@0
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 Giz7C_dB_=WZS^1=3P8073
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 W]_:GkoiISnEn83KNb:3:2
+Z10 dC:\Users\Yo\Desktop\TyDD2\ej2\simulation\modelsim
+Z11 8Parte_B_7_1200mv_85c_slow.vho
+Z12 FParte_B_7_1200mv_85c_slow.vho
+l0
+L36
+V?>mV5C?BIS[UiKN]gaIV[3
+Z13 OV;C;10.1d;51
+31
+Z14 !s108 1668801727.801000
+Z15 !s90 -reportprogress|300|-93|-work|work|Parte_B_7_1200mv_85c_slow.vho|
+Z16 !s107 Parte_B_7_1200mv_85c_slow.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+!s100 PLTKUOSco=CFFI3V62I^Z1
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 7 parte_b 0 22 ?>mV5C?BIS[UiKN]gaIV[3
+l89
+L56
+VYRf<JbD_[NlzY3`ezYiIY3
+R13
+31
+R14
+R15
+R16
+R17
+R18
+!s100 2lmJ[^F@3WBTgEkRj398j0
+!i10b 1
+Etestbench_parte_b
+Z19 w1668801414
+R7
+R8
+R10
+Z20 8C:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd
+Z21 FC:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd
+l0
+L3
+VXBVGjbLV]UH[YTg]nb]Z?2
+!s100 b`LH[eCKY8;?d8[T@90W93
+R13
+31
+!i10b 1
+Z22 !s108 1668801728.145000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd|
+Z24 !s107 C:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd|
+R17
+R18
+Atest
+R7
+R8
+DEx4 work 17 testbench_parte_b 0 22 XBVGjbLV]UH[YTg]nb]Z?2
+l24
+L5
+VUZ9Nba[YlzY1m^Tn4jiiD0
+!s100 XmO<S7RJiCRm^M=7I5Ozf3
+R13
+31
+!i10b 1
+R22
+R23
+R24
+R17
+R18

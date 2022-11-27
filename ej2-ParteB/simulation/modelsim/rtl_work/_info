@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Desktop\TyDD2\ej2\simulation\modelsim
+Eff_d
+Z1 w1668794400
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Yo\Desktop\TyDD2\ej2\simulation\modelsim
+Z7 8C:/Users/Yo/Desktop/TyDD2/ej2/FF_D.vhd
+Z8 FC:/Users/Yo/Desktop/TyDD2/ej2/FF_D.vhd
+l0
+L6
+V96;>b?]=5H]BLGDRmHVEj0
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1668801514.180000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/TyDD2/ej2/FF_D.vhd|
+Z12 !s107 C:/Users/Yo/Desktop/TyDD2/ej2/FF_D.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 <`B14aOYn9P0[>I?AETL>3
+!i10b 1
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 4 ff_d 0 22 96;>b?]=5H]BLGDRmHVEj0
+l12
+L11
+VIHZCZ2VP>@Haem=KZkm0M2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 ATfOPmI0OMK[952C=^FU73
+!i10b 1
+Eparte_b
+Z15 w1668796235
+R4
+R5
+R6
+Z16 8C:/Users/Yo/Desktop/TyDD2/ej2/Parte_B.vhd
+Z17 FC:/Users/Yo/Desktop/TyDD2/ej2/Parte_B.vhd
+l0
+L3
+Vaj`RT9I723oW[G7YODi;b0
+R9
+31
+Z18 !s108 1668801513.758000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/TyDD2/ej2/Parte_B.vhd|
+Z20 !s107 C:/Users/Yo/Desktop/TyDD2/ej2/Parte_B.vhd|
+R13
+R14
+!s100 J@aU>`WGzKm;iV8d@R9bA1
+!i10b 1
+Atest
+R4
+R5
+DEx4 work 7 parte_b 0 22 aj`RT9I723oW[G7YODi;b0
+l20
+L12
+V7;2Baa^o=Y6hV><hE:n6E1
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 d=db4d5c36ikL2egK4B_N0
+!i10b 1
+Etestbench_parte_b
+Z21 w1668801414
+R4
+R5
+R6
+Z22 8C:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd
+Z23 FC:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd
+l0
+L3
+VXBVGjbLV]UH[YTg]nb]Z?2
+!s100 b`LH[eCKY8;?d8[T@90W93
+R9
+31
+!i10b 1
+Z24 !s108 1668801514.523000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd|
+Z26 !s107 C:/Users/Yo/Desktop/TyDD2/ej2/Testbench_parte_B.vhd|
+R13
+R14
+Atest
+R4
+R5
+DEx4 work 17 testbench_parte_b 0 22 XBVGjbLV]UH[YTg]nb]Z?2
+l24
+L5
+VUZ9Nba[YlzY1m^Tn4jiiD0
+!s100 XmO<S7RJiCRm^M=7I5Ozf3
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14

@@ -1,0 +1,43 @@
+|Parte_B
+input_A => FF_D:D1.D
+input_B => FF_D:D2.D
+input_Cin => FF_D:D3.D
+clk => FF_D:D1.CLOCK
+clk => FF_D:D2.CLOCK
+clk => FF_D:D3.CLOCK
+clk => FF_D:D4.CLOCK
+clk => FF_D:D5.CLOCK
+output_Cout <= FF_D:D4.Q
+output_S <= FF_D:D5.Q
+
+
+|Parte_B|FF_D:D1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parte_B|FF_D:D2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parte_B|FF_D:D3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parte_B|FF_D:D4
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Parte_B|FF_D:D5
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
